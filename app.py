@@ -13,7 +13,7 @@ def generate_short_code(length=6):
 
 @app.route('/')
 def home():
-    return jsonify({"message": "Welcom User to my project Url Shortener"}), 200
+    return jsonify({"message": "Welcome User to my project Url Shortener"}), 200
 
 @app.route('/shorten', methods=['POST'])
 def shorten_url():
